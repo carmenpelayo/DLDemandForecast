@@ -1,26 +1,7 @@
 # Local Business Short-Term Demand Forecasting Exploration Leveraging Neural Network Architectures
-April, 2024
+Carmen Pelayo Fernandez, May 2024
 
-## Introduction
-This project addresses the critical need for effective demand forecasting in local businesses, utilizing deep learning methods. By analyzing over two decades of data from a Connecticut cafe, this project aims to identify and implement a deep learning algorithm that provides highly accurate demand projections, aiding in operational planning and strategic decision-making.
-
-## Objectives
-- To provide accurate short-term demand forecasting for operational planning.
-- To identify long-term trends affecting strategic business decisions.
-- To investigate the accuracy of standard forecasting methods (ARIMA, GRUs, LSTMs) versus state-of-the-art deep learning algorithms (Transformers, Time-series Dense Encoders).
-
-## Datasets
-Utilizes a dataset from a local café, including meal counts, weather conditions, and expenditure, over 23 years.
-
-## Methodology
-- Exploratory Data Analysis (EDA) to understand data patterns.
-- Development of forecasting models using deep learning methods.
-- Evaluation of model performance using MAE and MAPE metrics.
-
-## Technologies Used
-- Data Analysis and Visualization: Python, Pandas, Matplotlib, Seaborn.
-- Standard Forecasting Models (as a baseline): ARIMA, LSTM, GRU.
-- State-of-the-art Forecasting Models: TiDE, Time-LLM, etc.
+In an era where precision in operational management can dictate the success of a business, accurate demand forecasting is more crucial than ever, especially for industries like the restaurant sector dealing with perishable goods. This paper presents a comprehensive analysis comparing the effectiveness of traditional and deep learning forecasting models on real-world data from a local café. Traditional models, including ARIMA and Holt-Winters, are juxtaposed against modern deep learning models, specifically NeuralProphet and N-BEATS, to assess their capabilities in a practical business context. The results indicate that deep learning models, particularly NeuralProphet, significantly outperform traditional methods in terms of accuracy, as quantified by the Mean Absolute Percentage Error (MAPE). Additionally, this research explores the enhancement of forecasting accuracy through the integration of multivariate data inputs such as weather conditions and annotations of special events, demonstrating that incorporating external information and qualitative data from the business activity can substantively improve model predictions. Overall, this project not only validates the superior performance of neural network-based models in a real-world setting but also provides a framework for local businesses to leverage cutting-edge AI technologies for enhanced decision-making.
 
 ## Authors
 - Carmen Pelayo Fernández - [carmenpelayo]
