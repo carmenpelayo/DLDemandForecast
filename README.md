@@ -1,4 +1,4 @@
-# Deep Learning for Demand Forecasting in Local Businesses 
+# Local Business Short-Term Demand Forecasting Exploration Leveraging Neural Network Architectures
 April, 2024
 
 ## Introduction
